@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html lang='zh-CN'>
-<head>
-<title>LOL电影天堂</title>
-<meta charset='utf-8'>
-<meta content="IE=edge" http-equiv="X-UA-Compatible" />
-<style>
-	*{
-		margin: 0px;
-		padding: 0px;
-		border: 0px;
-		height: 100%;
-	}
-</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>传送门</title>
+    <style>html,body,iframe{width: 100%;height: 100%;padding: 0;margin: 0;} #wrap{width: 100%;height: 100%;} iframe{border: none;}</style>
+    <script src="js.js"></script>
+  </head>
+  
+  <body>
+    <div id="wrap"></div>
+      <script language="javascript">document.getElementById('wrap').innerHTML = '<iframe src="' + (url) + '" marginwidth="0" framespacing="0" marginheight="0" frameborder="0" scrolling="yes" vspale="0" noresize=""></iframe>';
+      </script>
+  </body>
 
-<script src="js.js"></script>
-</head>
-<body>
-<div id="a1"></div>
-<script language="javascript">
-	document.getElementById('a1').innerHTML='<iframe border="0" src="https://api.78sy.cn/?url='+encodeURIComponent(url)+'" width="100%" height="100%" marginwidth="0" framespacing="0" marginheight="0" frameborder="0" scrolling="no" vspale="0" noresize=""></iframe>';
-</script>
-</body>
 </html>
