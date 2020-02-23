@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>www.jing018.com</title>
+</head>
+<body>
+<script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isWeixin = ua.indexOf('micromessenger') != -1;
+    if (!isWeixin) {
+      window.location.href = "http://www.jing018.com:9999"
+    }
+</script>
+<p style="text-align:center;margin-top:30%;">
+	<span style="font-size:2em;">请点击屏幕右上角 [ ··· ]</span> 
+</p>
+<p style="text-align:center;">
+	<span style="font-size:2em;">选择在浏览器打开</span> 
+</p>
+</body>
+</html>
